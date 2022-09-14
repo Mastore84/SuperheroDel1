@@ -16,6 +16,24 @@ public class Superhero {
         this.strength = strength;
     }
 
+    public String getSuperheroName(){
+        return superheroName;
+    }
+    public String getRealName(){
+        return realName;
+    }
+    public int getYearCreated(){
+        return yearCreated;
+    }
+    public boolean getIsHuman() {
+        return isHuman;
+    }
+    public String getSuperPowers(){
+        return superPowers;
+    }
+    public double getStrength(){
+        return strength;
+    }
     public String toString(){
         return "Superheltenavn: " + superheroName + "\nRigtige navn: " + realName + "\nÅr skabt: " + yearCreated + "\nSuperkrafter: " + superPowers + "\nEr menneske: " + isHuman + "\nStyrke: " + strength;
     }

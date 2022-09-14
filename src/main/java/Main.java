@@ -1,8 +1,9 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Database[] database = new Database[4];
+
         boolean isHuman = true;
         Scanner sc = new Scanner(System.in);
         System.out.println("Indtast superheltenavn: ");
@@ -25,6 +26,9 @@ public class Main {
         System.out.println("Indtast styrke (tal med to decimaler): ");
         double strength = sc.nextDouble();
         Superhero superhero = new Superhero(superheroName, realName, yearCreated, superPowers, isHuman, strength);
+        //database.addSuperhero(superheroName, realName, yearCreated, superPowers, isHuman, strength);
+
+
 
         System.out.println(superhero.toString());
     }
