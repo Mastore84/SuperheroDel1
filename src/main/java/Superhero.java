@@ -34,9 +34,9 @@ public class Superhero {
     public double getStrength(){
         return strength;
     }
-    public String toString(){
-        return "Superheltenavn: " + superheroName + "\nRigtige navn: " + realName + "\nÅr skabt: " + yearCreated + "\nSuperkrafter: " + superPowers + "\nEr menneske: " + isHuman + "\nStyrke: " + strength;
-    }
+    //public String toString(){
+      //  return "Superheltenavn: " + superheroName + "\nRigtige navn: " + realName + "\nÅr skabt: " + yearCreated + "\nSuperkrafter: " + superPowers + "\nEr menneske: " + isHuman + "\nStyrke: " + strength;
+    //}
 
 
 }

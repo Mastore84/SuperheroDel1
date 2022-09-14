@@ -24,7 +24,7 @@ public class Main {
         }
         System.out.println("Indtast styrke (tal med to decimaler): ");
         double strength = sc.nextDouble();
-        database.addSuperhero(superheroName, realName, yearCreated, superPowers, isHuman, strength);
+        //database.addSuperhero(superheroName, realName, yearCreated, superPowers, isHuman, strength);
 
     }
 }
